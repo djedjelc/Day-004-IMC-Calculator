@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculateur de l'index de Masse Corporelle</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="overlay1"></div>
+
+    <div class="container">
+        <div class="gauche">
+            <h2>Calculateur d'IMC</h2>
+            <div>
+                <span for="age" class="age">AGE</span>
+                <input type="number" id="age" placeholder="20">
+            </div>
+
+            <div class="genre">
+                <span>GENRE</span>
+                <input type="radio" name="genres">
+                <label for="genres">Masculin</label>
+                <input type="radio" name="genres">
+                <label for="genres">Féminin</label>
+            </div>
+
+            <div>
+                <span for="taille">TAILLE</span>
+                <input type="number" id="taille" placeholder="180 (en cm)">
+            </div>
+
+            <div>
+                <span for="poids">POIDS</span>
+                <input type="number" id="poids" placeholder="80 (en kg)">
+            </div>
+
+            <button>Calculer</button>
+        </div>
+        <div class="droite">
+            <div class="overlay2"></div>
+        </div>
+    </div>
+    
+</body>
+</html>
